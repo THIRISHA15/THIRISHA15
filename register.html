@@ -1,0 +1,53 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Day</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+    
+<body>
+    <header>
+        
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+    </header>
+   
+<body>
+    <div class="file">
+        <h2>Event Registration</h2>
+        <form action="submit_registration.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="reg_id">Registration ID:</label>
+            <input type="text" id="reg_id" name="reg_id" required>
+
+            <label for="year">Year:</label>
+            <select id="year" name="year" required>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="Dance">Dance</option>
+                <option value="Song">Song</option>
+                <option value="Skit">Skit</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
+
